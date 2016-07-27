@@ -23,7 +23,7 @@ public class CustomerRestController {
         return customers;
     }
 
-    @RequestMapping(value = "{id", method = RequestMethod.GET)
+    @RequestMapping(value = "{id}", method = RequestMethod.GET)
     Customer getCustomer(@PathVariable Integer id) {
         Customer customer = customerService.findOne(id);
         return customer;
