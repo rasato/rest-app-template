@@ -7,28 +7,30 @@ Spring Bootでのアプリ開発が一通り試せるので、興味があれば
 
 ## How to run?
 
-```mvn spring-boot:run
+```
+mvn spring-boot:run
+```
 
 ## Specification
 
 ### Get all customers
 
-access <BaseUrl>/api/customers with GET method.
+access `<BaseUrl>/api/customers` by GET method.
 
 ### Get one customer
 
-access <BaseUrl>/api/customers/<id> with GET method.
+access `<BaseUrl>/api/customers/<id>` by GET method.
 
 ### Create customer
 
-access <BaseUrl>/api/customes with POST method.
+access `<BaseUrl>/api/customes` by POST method.
 need parameters, "firstName" and "lastName". 
 
 ### Update customer
 
-access <BaseUrl>/api/customers/<id> with PUT method.
+access `<BaseUrl>/api/customers/<id>` by PUT method.
 need parameters, "firstName" and "lastName". 
 
 ### Delete customer
-access <BaseUrl>/api/customers/<id> with DELETE method.
+access `<BaseUrl>/api/customers/<id>` by DELETE method.
 
